@@ -12,10 +12,12 @@ struct FourthScreenView: View {
         NavigationStack{
             VStack{
                 Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-                ButtonComp(title: "go to first screen") {
+                ButtonComp(title: "go to 5 screen") {
                     if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
                        let window = windowScene.windows.first{
-                        window.rootViewController = UIHostingController(rootView: ContentView())
+                        window.rootViewController = UIHostingController(rootView: FifhScreenView(
+                            logoImage: nil)
+                        )
                         window.makeKeyAndVisible()
                       
                     }
