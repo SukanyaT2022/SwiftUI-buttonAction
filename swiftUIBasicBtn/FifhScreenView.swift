@@ -35,10 +35,10 @@ struct FifhScreenView: View {
                 Text("Fifth Screen")
                     .font(.largeTitle)
                     .fontWeight(.bold)
-                ButtonComp(title: "go to first screen") {
+                ButtonComp(title: "go to 6 screen") {
                     if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
                        let window = windowScene.windows.first{
-                        window.rootViewController = UIHostingController(rootView: ContentView())
+                        window.rootViewController = UIHostingController(rootView: SixScreenView())
                         window.makeKeyAndVisible()
                     }
                 }

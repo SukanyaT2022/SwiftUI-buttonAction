@@ -21,7 +21,9 @@ struct FourthScreenView: View {
                         window.makeKeyAndVisible()
                       
                     }
+                
                 }
+//                closing end of button component
             }
             
         }
