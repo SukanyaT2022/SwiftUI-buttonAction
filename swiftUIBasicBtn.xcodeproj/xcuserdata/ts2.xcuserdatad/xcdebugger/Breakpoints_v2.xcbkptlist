@@ -18,6 +18,36 @@
             endingLineNumber = "29"
             landmarkName = "goToThirdScreenView()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AB61C2F2-3621-4B9C-AAC9-FA9EBEFC3C27 - bd907bf3d3649918"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftUIBasicBtn.SecondScreenView.goToThirdScreenView() -&gt; ()"
+                  moduleName = "swiftUIBasicBtn.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ts2/Documents/swift2025/swiftui-practice/swiftUIBasicBtn/swiftUIBasicBtn/SecondScreenView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29">
+               </Location>
+               <Location
+                  uuid = "AB61C2F2-3621-4B9C-AAC9-FA9EBEFC3C27 - bd907bf3d3649918"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftUIBasicBtn.SecondScreenView.goToThirdScreenView() -&gt; ()"
+                  moduleName = "swiftUIBasicBtn.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ts2/Documents/swift2025/swiftui-practice/swiftUIBasicBtn/swiftUIBasicBtn/SecondScreenView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

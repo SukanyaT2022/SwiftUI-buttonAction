@@ -11,7 +11,7 @@ import SwiftUI
 struct swiftUIBasicBtnApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PetUserView()
         }
     }
 }

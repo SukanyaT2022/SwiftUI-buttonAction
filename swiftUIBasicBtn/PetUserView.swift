@@ -8,32 +8,34 @@
 import SwiftUI
 
 struct PetUserView: View {
+    let petDataArray = ["cat", "dog", "bird", "snake", "lizard", "cow", "horse", "rabbit"]
     var body: some View {
-        ScrollView(.vertical, showsIndicators: false){
-            VStack(){
+//        ScrollView(.vertical, showsIndicators: false){
+        VStack{
+            VStack{
                    
                 SquareImgCameraView()
                     .padding(.top, 30)
                     .padding(.bottom,30)
                 NameHstackCompView()
-                SquareImgCameraView()
-                    .padding(.top, 30)
-                    .padding(.bottom,30)
-                NameHstackCompView()
-                SquareImgCameraView()
-                    .padding(.top, 30)
-                    .padding(.bottom,30)
-                NameHstackCompView()
-                    
+              
             }
-            Spacer()
+//            Spacer()
             //padding for the parent
     //           .padding(10)
-               .padding(.top, 100)
+              
                .background(Color.gray.opacity(0.2))
+        
+        List(petDataArray, id: \.self){item in
+               
+            PetInfoMapCompView(leftTitle: item, rightTitle: "")
+        }
+            Spacer()
+        }
+           
         }
         
-    }
+//    }
 }
 
 #Preview {

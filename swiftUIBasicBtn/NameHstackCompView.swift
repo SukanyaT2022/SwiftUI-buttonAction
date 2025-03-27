@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct NameHstackCompView: View {
+
     var body: some View {
         HStack{
             Text("Space")
